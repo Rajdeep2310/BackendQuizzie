@@ -25,7 +25,7 @@ exports.createQuize = async(req, res) =>{
         const _id = new mongoose.Types.ObjectId();
 
         //generating URL
-        const URL = `http://localhost:9001/anonymous/${_id}`;
+        const URL = `https://backendquizzie.onrender.com/anonymous/${_id}`;
 
 
         //creating new quize if all data is correct
