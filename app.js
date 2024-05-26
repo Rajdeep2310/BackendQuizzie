@@ -7,13 +7,7 @@ const errorHandler = require('./utils/errorHandler')
 
 
 
-app.use(cors({
-    origin: 'https://friendly-croissant-c9388c.netlify.app',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true,
-}));
-
-
+app.use(cors());
 //using middlewares
 app.use(express.json());
 
