@@ -26,7 +26,10 @@ exports.createQuize = async(req, res) =>{
 
         //generating URL
        // const URL = `https://fantastic-starburst-e30271.netlify.app/anonymous/${_id}`;
-        const URL = `http://localhost:5173/anonymous/${_id}`;
+
+       
+     //   const URL = `http://localhost:5173/anonymous/${_id}`;
+        const URL = `https://unrivaled-manatee-56ed98.netlify.app/anonymous/${_id}`;
 
 
         //creating new quize if all data is correct
