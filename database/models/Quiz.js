@@ -63,7 +63,7 @@ const quizeSchema = new mongoose.Schema({
 
     impressions: {
         type: Number,
-        default: 0,
+        default: 2,
     },
 
     creator: {
