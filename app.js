@@ -5,7 +5,14 @@ const userRoutes = require('./routes/userRoutes');
 const quizeRoutes = require('./routes/quizeRoutes');
 const errorHandler = require('./utils/errorHandler')
 
-app.use(cors());
+
+
+app.use(cors({
+    origin: 'https://unrivaled-manatee-56ed98.netlify.app',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+}));
+
 
 //using middlewares
 app.use(express.json());
