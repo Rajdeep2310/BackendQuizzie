@@ -8,7 +8,7 @@ const errorHandler = require('./utils/errorHandler')
 
 
 app.use(cors({
-    origin: 'https://unrivaled-manatee-56ed98.netlify.app',
+    origin: 'https://friendly-croissant-c9388c.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }));
