@@ -25,9 +25,9 @@ exports.createQuize = async(req, res) =>{
         const _id = new mongoose.Types.ObjectId();
 
         //generating URL
-        
-        const URL = `http://localhost:5173/anonymous/${_id}`;
-       // const URL = `https://friendly-croissant-c9388c.netlify.app/anonymous/${_id}`;
+
+       // const URL = `http://localhost:5173/anonymous/${_id}`;
+        const URL = `https://frontend-quizzie-kt7w06cc0-rajdeep2310s-projects.vercel.app/anonymous/${_id}`;
         //creating new quize if all data is correct
         const quize = await Quize.create({
             _id,
